@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <title>Stick It notes</title>
+</head>
+<body>
+    <div id="heading">
+        <h1>Stick It Notes</h1>
+        <p id="ts">By Waleed OMEGA</p>
+    </div>
+    <div id="form">
+        <form action="" id="inputForm">
+            <input
+            type="text"
+            name='title'
+            id='new-note-title-input'
+            class='inputText'
+            placeholder="title"
+            autocomplete="off"
+            required
+            autofocus
+            />
+            <input
+            type="text"
+            name='content'
+            id='new-note-body-input'
+            class='inputText'
+            placeholder="content"
+            autocomplete="off"
+            required
+            />
+            <button type="submit" class='btn'>Create Note</button>
+        </form>
+    </div>
+    <h3 id="no-notes">No Notes Found, Add One!</h3>
+    <ul id="notes">
+        
+    </ul>
+    <script src="script.js"></script>
+</body>
+</html>
